@@ -1,0 +1,7 @@
+def solve(s):
+    o= []
+    s= list(map(str,s.split(" ")))
+    for i in s:
+        o.append(i.capitalize())
+    return " ".join(o)
+
