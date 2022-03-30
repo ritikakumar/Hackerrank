@@ -1,0 +1,11 @@
+import re
+t=int(input())
+for i in range(t):
+    try:
+        n=input()
+        re.compile(n)
+    except:
+        print("False")
+        continue
+    print("True")
+    
